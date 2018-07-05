@@ -64,12 +64,13 @@ h1{
 
 h2{
     color: white;
-    position: absolute;
-    bottom: 16px;
-    margin: 0 auto;
-    left: 50%;
-    transform: translateX(-50%);
+    text-align: center;
+    font-size: 12px;
 
+}
+
+.wrapper{
+    padding-top: 300px;
 }
 
 input{
@@ -143,4 +144,12 @@ li:nth-child(2n){
 .crossOff{
     text-decoration: line-through;
     color: grey;
+}
+
+@media(min-width:500px){
+    .wrapper{
+        position: fixed;
+        bottom: 0%;
+        right: 2%;
+    }
 }
