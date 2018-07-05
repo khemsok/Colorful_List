@@ -1,0 +1,146 @@
+html,body{
+    font-family: 'Montserrat', sans-serif;
+
+    background: linear-gradient(270deg, #76b3ff, #26d3e9, #fe7a70, #76f88f);
+    background-size: 800% 800%;
+    
+    -webkit-animation: AnimationName 23s ease infinite;
+    -moz-animation: AnimationName 23s ease infinite;
+    animation: AnimationName 23s ease infinite;
+
+}
+
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.fa-plus{
+    float: right;
+    margin-right: 10px;
+}
+.fa-trash{
+    float: right;
+}
+
+
+
+.container{
+    width: 360px;
+    margin: 100px auto;
+    background: #f7f7f7;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.1);
+    
+}
+
+h1{
+    padding: 20px;
+    background: linear-gradient(270deg, #76b3ff, #26d3e9, #fe7a70, #76f88f);
+    background-size: 800% 800%;
+    
+    -webkit-animation: AnimationName 23s ease infinite;
+    -moz-animation: AnimationName 23s ease infinite;
+    animation: AnimationName 23s ease infinite;
+    margin: 0;
+    color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-weight: 700px;
+}
+
+h2{
+    color: white;
+    position: absolute;
+    bottom: 16px;
+    margin: 0 auto;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+input{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border: none;
+    background: #f7f7f7;
+    height: 50px;
+    padding: 10px 10px 10px 20px;
+    box-sizing: border-box;
+    display: none;
+}
+span{
+    display: inline-block;
+    background: linear-gradient(270deg, #76b3ff, #26d3e9, #fe7a70, #76f88f);
+    background-size: 800% 800%;
+    
+    -webkit-animation: AnimationName 23s ease infinite;
+    -moz-animation: AnimationName 23s ease infinite;
+    animation: AnimationName 23s ease infinite;
+    height: 50px;
+    width: 0px;
+    margin-right: 20px;
+    text-align: center;
+    color: white;
+    transition: 0.2s linear;
+    opacity: 0;
+}
+
+li:hover span{
+    width: 50px;
+    opacity: 1;
+}
+input:focus{
+    outline: none;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+
+li{
+    background: linear-gradient(270deg, #76b3ff, #26d3e9, #fe7a70, #76f88f);
+    background-size: 800% 800%;
+    
+    -webkit-animation: AnimationName 23s ease infinite;
+    -moz-animation: AnimationName 23s ease infinite;
+    animation: AnimationName 23s ease infinite;
+    height: 50px;
+    line-height: 50px;
+    color: white;
+}
+
+li:nth-child(2n){
+    background-color: white;
+
+}
+.fix1{
+    list-style-type: none;
+    margin: 0;
+    font-weight: lighter;
+
+}
+
+.trash{
+
+}
+
+.crossOff{
+    text-decoration: line-through;
+    color: grey;
+}
