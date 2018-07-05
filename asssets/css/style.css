@@ -7,8 +7,19 @@ html,body{
     -webkit-animation: AnimationName 23s ease infinite;
     -moz-animation: AnimationName 23s ease infinite;
     animation: AnimationName 23s ease infinite;
-
 }
+canvas{
+    display: block;
+}
+
+#particles-js{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0%;
+    z-index: -1;
+}
+
 
 
 @-webkit-keyframes AnimationName {
